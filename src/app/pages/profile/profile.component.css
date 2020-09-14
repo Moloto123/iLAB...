@@ -1,0 +1,82 @@
+
+.profilepic{
+  height: 150px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+
+.profile-card {
+  border: 3px cyan solid;
+  padding: 15px;
+}
+.name {
+  font-family: "veranda", sans-serif;
+  font-size: 16px;
+  border-left: 2px brown solid;
+  padding-left: 15px;
+  
+}
+.heading {
+  font-style: italic;
+  
+ 
+
+}
+  
+
+
+
+
+
+ .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: inline-block;
+    align-items: center;
+    font-weight: 600;
+  }
+ 
+ 
+  
+
+  a,
+  a:visited,
+  a:hover {
+    color: #1976d2;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #125699;
+  }
+
+
+  .header{
+flex-shrink: 0;
+flex-grow: 0;
+background: #039be5;
+padding: 3px 5px;
+
+}
+.content{
+flex-shrink: 1;
+flex-grow: 1;
+padding: 3px 5px;
+position: relative;
+overflow-y: auto;
+}
+
+.footer{
+flex-shrink: 0;
+flex-grow: 0;
+background: wheat;
+padding: 3px 15px;
+width: 1285px;
+}
+p {
+font-family: Lato;
+}

@@ -1,0 +1,91 @@
+
+
+
+
+.name {
+  font-family: "veranda", sans-serif;
+  font-size: 16px;
+  border-left: 2px brown solid;
+  padding-left: 15px;
+ 
+}
+
+.info {
+  font-family: "veranda", sans-serif;
+  font-size: 16px;
+  
+}
+.heading {
+  font-style: italic;
+ 
+}
+  
+
+    :host {
+        font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 14px;
+        color: #333;
+        box-sizing: border-box;
+    }
+      
+     .toolbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: inline-block;
+        align-items: center;
+        font-weight: 600;
+      }
+      .toolbar img {
+        margin: 0 16px;
+      }
+     
+      
+      
+      
+    
+      a,
+      a:visited,
+      a:hover {
+        color: #1976d2;
+        text-decoration: none;
+      }
+    
+      a:hover {
+        color: #125699;
+      }
+    
+    
+      .header{
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: #039be5;
+  padding: 3px 5px;
+  width: 1350px;
+}
+.content{
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: 3px 5px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.footer{
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: wheat;
+  padding: 3px 15px;
+  width: 1320px;
+}
+p {
+  font-family: Lato;
+}
+
+   
+
+
